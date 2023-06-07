@@ -1,0 +1,43 @@
+#toggle:checked ~ ul{
+    display: block;
+}
+ul{
+    display: none;
+}
+#toggle{
+    cursor: pointer;
+    display: none;
+}
+nav{
+    width: 100%;
+    max-height: 400px;
+    background-color: white;
+    transition-duration: 0.5s;
+    /* transition-timing-function: swing; */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1), 0px 4px 8px rgba(0,0,0,0.1);
+
+    /* h2 {
+      transition: 0.5s;
+      position: absolute;
+      font-size: 1.75em;
+      top: 15px;
+      right: 32px;
+      font-weight: 300;
+    } */
+/* ul{
+    padding-top: 100px;
+    li{
+      list-style: none;
+      padding: 1em 2em 1em 1.5em;
+      transition: all 0.5s;
+      
+      a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.1em;
+        color: $dark;
+      }
+    }*/
+} 
